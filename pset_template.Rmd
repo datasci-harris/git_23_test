@@ -40,10 +40,8 @@ ggplot(mpg, aes(manufacturer)) +
 
 ## Second Section
 
-1.  YOUR TEXT ANSWER GOES HERE (Please delete)
-
 ```{r}
-# YOUR CODE GOES HERE  (Please delete)
-ggplot(mtcars, aes(factor(cyl), mpg)) + geom_violin(aes(fill=mpg))
+ggplot(mpg, aes(manufacturer)) + 
+  geom_bar(fill = "green")
 ```
 
