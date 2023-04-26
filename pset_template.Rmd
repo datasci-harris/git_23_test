@@ -31,23 +31,10 @@ Late coins used this pset: 0. Late coins left: 4. <!--You may use one for a give
 
 <!--(Notice the use of two `##`)-->
 
-1.  YOUR TEXT ANSWER GOES HERE (Please delete)
-
--   The dash symbol creates unordered list
-
--   Another example
-
-    1.  numbering creates ordered list
-    2.  Another example
-
-    -   like This
-    -   Like this as well
-
-**Delete all the text in `1.` before you write your answer**
-
+1.  
 ```{r}
-# YOUR CODE GOES HERE  (Please delete)
-ggplot(mpg, aes(manufacturer)) + geom_bar()
+ggplot(mpg, aes(manufacturer)) + 
+  geom_bar(fill = "red")
 ```
 
 
