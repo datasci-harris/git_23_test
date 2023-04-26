@@ -42,6 +42,6 @@ ggplot(mpg, aes(manufacturer)) +
 
 ```{r}
 ggplot(mpg, aes(manufacturer)) + 
-  geom_bar(fill = "green")
+  geom_bar(fill = "green", color = "yellow", linewidth = 2)
 ```
 
